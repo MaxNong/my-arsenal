@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0",
+  "name": "@eh-design/site",
+  "scripts": {
+    "dev": "dumi dev",
+    "build": "dumi build",
+    "lint-staged": "lint-staged"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "typings": "dist/index.d.ts",
+  "lint-staged": {
+    "*.{js,jsx,less,md,json}": [
+      "prettier --write"
+    ],
+    "*.ts?(x)": [
+      "prettier --parser=typescript --write"
+    ]
+  },
+  "devDependencies": {
+    "dumi": "^1.0.13",
+    "lint-staged": "^10.0.7",
+    "prettier": "^2.2.1",
+    "yorkie": "^2.0.0"
+  },
+  "dependencies": {}
+}
