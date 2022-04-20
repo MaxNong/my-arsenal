@@ -1,12 +1,12 @@
 ---
 title: Button 按钮
 nav:
-  path: /components
-  title: 组件
-  order: 2
+  path: /front-end
+  title: 前端
+  order: 1
 group:
-  path: /common
-  title: 通用
+  path: /build
+  title: 构建
   order: 1
 ---
 

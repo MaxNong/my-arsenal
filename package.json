@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "name": "@eh-design/site",
+  "name": "my-arsenal",
   "scripts": {
     "dev": "dumi dev",
     "build": "dumi build",
