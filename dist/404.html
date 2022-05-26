@@ -22,6 +22,10 @@
       //! umi version: 3.5.24
     </script>
     <script>
+      localStorage.setItem("dumi:prefers-color", "dark");
+      document.documentElement.setAttribute("data-prefers-color", "dark");
+    </script>
+    <script>
       !(function () {
         var e = localStorage.getItem("dumi:prefers-color"),
           t = window.matchMedia("(prefers-color-scheme: dark)").matches,
