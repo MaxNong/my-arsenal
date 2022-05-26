@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "name": "my-arsenal",
   "scripts": {
-    "dev": "dumi dev",
+    "start": "dumi dev",
     "build": "dumi build",
     "lint-staged": "lint-staged"
   },

@@ -1,9 +1,13 @@
 import { defineConfig } from 'dumi';
+import {join} from "path"
 
 export default defineConfig({
-  title: 'Arsenal',
+  title: '沐小农 MUXIAONONG',
   mode: 'site',
   locales: [['zh-CN', '中文']],
-  logo: 'http://baoqiang.ytoulan.com/timg.jpg',
-  styles: [`.__dumi-default-navbar-tool { display: none !important }`],
+  logo: ' ',
+  styles: [`.__dumi-default-navbar-tool { display: none !important }; .__dumi-default-navbar-logo{padding-left: 0 !important}`],
+  alias: {
+    "@": join(__dirname, "src")
+  }
 });

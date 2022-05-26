@@ -1,8 +1,8 @@
 ---
 title: 介绍
 nav:
-  path: /docs
-  title: 后端
+  path: /nodejs
+  title: NodeJs
   order: 2
 group:
   path: /introduce
